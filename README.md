@@ -12,7 +12,7 @@
 - This is a batch processing service built using the Spring Batch framework, created based on the official documentation.
 
 ## Spring Batch architecture
-![]()
+![](./img/spring-batch-reference-model.png)
 
 - A `Job` has one to many steps, each of which has exactly one `ItemReader`, one `ItemProcessor`, and one `ItemWriter`. A `job` needs to be launched (with `JobLauncher`), and metadata about the currently running process needs to be stored (in `JobRepository`).
 
